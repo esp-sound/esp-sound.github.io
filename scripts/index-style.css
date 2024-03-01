@@ -1,5 +1,4 @@
 html {
-	overflow-x: hidden;
 	top: 0;
   left: 0;
   right: 0;
@@ -16,36 +15,44 @@ html, body {
 }
 
 body {
-	font: black;
+	color: black;
 	display: table;
-	font-size: 1.4em;
+	font-size: max(1.1em, 3.2vh);
 	font-family: 'EB Garamond', serif;
-	padding: 2em;
+	line-height: 100%;
+	padding: max(4vw,1.2em);
 	margin-left: 1vw;
-	margin-right: 20vw;
+	margin-right: 12vw;
 }
 
 ::selection {
-	background: #cec8c5;
+	background: #d0dddf;
 }
 
-
-.split {
-	position: absolute;
+.myPar {
+	margin: 2% 0% 1% 0%;
+	padding: .2em 0% 1.2vh 0%;
 }
 
 p {
-	margin: 0% 0% 0% 0%;
-	padding: 0% 0% 0% 0%;
+	margin: 0%;
+	padding: 0% 0% 1vh 0%;
 }
 
 a {
-	color: #3c6d24;
+	color: #152fac;
 	text-decoration: none;
 }
 
 a:hover {
 	color: #415a8e;
+}
+
+.sub {
+	margin-left: 1.7em;
+	text-indent: -1.7em;
+	color:#5f6a6c; 
+	font-size:.83em;
 }
 
 mark {
