@@ -18,13 +18,15 @@ html, body {
 body {
 	font: black;
 	display: table;
-	font-size: 1.55em;
-	font-family: 'Gelasio', serif;
+	font-size: 1.4em;
+	font-family: 'EB Garamond', serif;
 	padding: 2em;
+	margin-left: 1vw;
+	margin-right: 20vw;
 }
 
 ::selection {
-	background: #cfcfcf;
+	background: #cec8c5;
 }
 
 
