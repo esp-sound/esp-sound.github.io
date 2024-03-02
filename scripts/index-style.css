@@ -16,9 +16,9 @@ html, body {
 }
 
 #me {
+	font-size: min(1.85em, max(1.15em, 4vw));
 	margin:auto;
 	text-align: center;
-	font-size:1.25em;
 	overflow:visible;
 	white-space: nowrap;
 	padding:0;
@@ -34,9 +34,9 @@ html, body {
 }
 
 #metoo {
+	font-size: min(1.85em, max(1.15em, 4vw));
 	margin:auto;
 	text-align: center;
-	font-size:1.25em;
 	overflow:visible;
 	white-space: nowrap;
 	padding:0;
@@ -63,7 +63,7 @@ body {
 	font-size: max(1.2em, 3.7vh);
 	font-family: 'Old Standard TT', serif;
 	line-height: 100%;
-	padding: max(4vw,1.2em);
+	padding: max(5vw,2em) max(2vw,1em) max(4vw,1.2em) max(1vw,1em);
 	margin-left: 1vw;
 	margin-right: 12vw;
 }
