@@ -49,6 +49,14 @@ html, body {
 	pointer-events: none;
 }
 
+#me::selection {
+	color:#ffffff;
+}
+
+#metoo::selection {
+	color:#ffffff;
+}
+
 body {
 	color: black;
 	display: table;
@@ -75,11 +83,13 @@ h1 {
 }
 
 h1::selection {
-	color:#ffffff;
+	color:#2b2bd4;
 }
 
 ::selection {
-	background: #2b2bd4;
+	/* background: #2b2bd499; */
+  text-shadow: 0px 0px 2px #2b2bd4, 0px 0px 4px #2b2bd4, 0px 0px 6px #2b2bd4, 0px 0px 8px #2b2bd4, 0px 0px 10px #2b2bd4, 0px 0px 6px #2b2bd4, 0px 0px 8px #2b2bd4, 0px 0px 10px #2b2bd4, 0px 0px 9px #2b2bd4;
+	mix-blend-mode: darken;
 }
 
 .myPar {
@@ -111,14 +121,15 @@ a:hover {
 	margin-left: 1.7em;
 	text-indent: -1.7em;
 	color:#2b2bd4; 
-	font-size:.78em;
+	font-size:.7em;
 	line-height: 110%;
+  text-shadow: 0px 0px 1px #2b2bd4bb, 0px 0px 5px #2b2bd499;
 }
 
 .sub2 {
 	margin-left: 1.7em;
 	/* font-family: 'Old Standard TT', serif; */
-	font-size:.78em;
+	font-size:.7em;
 	line-height: 110%;
 }
 
