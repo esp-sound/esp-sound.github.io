@@ -29,7 +29,7 @@ html, body {
 	text-shadow: 0px 0px 2px #2b2bd488, 0px 0px 8px #2b2bd4bb; */
 	color:#f9f9f9;
 	mix-blend-mode:lighten;
-	text-shadow:  0px 0px 1.5px #ffffff, 0px 0px 2px #d4d42b, 0px 0px 7px #e28f09, 0px 0px 22px #ec7513;
+	text-shadow:  0px 0px 1.5px #ffffffee, 0px 0px 2px #d4d42bcc, 0px 0px 7px #e28f09ee, 0px 0px 19px #e3520a;
 	pointer-events: none;
 }
 
@@ -43,7 +43,7 @@ html, body {
 	position:fixed;
 	margin-top:-2vh;
 	color:#000000;
-	text-shadow: 0px 0px 25px #d4d42bbb;
+	text-shadow: 0px 0px 1.7px #dfb81c10, 0px 0px 9px #dfb81c40, 0px 0px 25px #d4d42bc0;
 	/* text-shadow: 0px 0px 3px #d4d42b, 0px 0px 6px #d4d42b; */
 	/* mix-blend-mode:lighten; */
 	pointer-events: none;
