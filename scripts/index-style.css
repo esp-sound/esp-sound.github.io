@@ -15,8 +15,11 @@ html, body {
 	min-height: 100%;
 }
 
+.esp {
+	font-size: min(1.5em, max(1em, 3.5vw));
+}
+
 #me {
-	font-size: min(1.85em, max(1em, 3.5vw));
 	margin:auto;
 	text-align: center;
 	overflow:visible;
@@ -34,7 +37,6 @@ html, body {
 }
 
 #metoo {
-	font-size: min(1.85em, max(1em, 3.5vw));
 	margin:auto;
 	text-align: center;
 	overflow:visible;
