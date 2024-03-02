@@ -8,30 +8,88 @@ html {
 html, body {
 	height: 100%;
 	margin: 0;
+	background: #f9f9f9;
 }
 
 #wrapper {
 	min-height: 100%;
 }
 
+#me {
+	margin:auto;
+	text-align: center;
+	font-size:1.25em;
+	overflow:visible;
+	white-space: nowrap;
+	padding:0;
+	position:fixed;
+	margin-top:-2vh;
+	/* color:#000000;
+	mix-blend-mode:exclusion;
+	text-shadow: 0px 0px 2px #2b2bd488, 0px 0px 8px #2b2bd4bb; */
+	color:#f9f9f9;
+	mix-blend-mode:lighten;
+	text-shadow:  0px 0px 1.5px #ffffff, 0px 0px 2px #d4d42b, 0px 0px 7px #e28f09, 0px 0px 22px #ec7513;
+	pointer-events: none;
+}
+
+#metoo {
+	margin:auto;
+	text-align: center;
+	font-size:1.25em;
+	overflow:visible;
+	white-space: nowrap;
+	padding:0;
+	position:fixed;
+	margin-top:-2vh;
+	color:#000000;
+	text-shadow: 0px 0px 25px #d4d42bbb;
+	/* text-shadow: 0px 0px 3px #d4d42b, 0px 0px 6px #d4d42b; */
+	/* mix-blend-mode:lighten; */
+	pointer-events: none;
+}
+
 body {
 	color: black;
 	display: table;
-	font-size: max(1.1em, 3.2vh);
-	font-family: 'EB Garamond', serif;
+	font-size: max(1.2em, 3.7vh);
+	font-family: 'Old Standard TT', serif;
 	line-height: 100%;
 	padding: max(4vw,1.2em);
 	margin-left: 1vw;
 	margin-right: 12vw;
 }
 
+h3 {
+	color:#000000;
+	font-size:100%;
+	font-weight:normal;
+	line-height: 55%;
+	margin:0 0 0 -5em;
+	padding:0;
+}
+
+h1 {
+	font-size:100%;
+	font-weight:normal;
+}
+
+h1::selection {
+	color:#ffffff;
+}
+
 ::selection {
-	background: #d0dddf;
+	background: #2b2bd4;
 }
 
 .myPar {
 	margin: 2% 0% 1% 0%;
 	padding: .2em 0% 1.2vh 0%;
+}
+
+.head {
+	/* font-family: 'Trirong', serif; */
+	font-size: 1.1em;
 }
 
 p {
@@ -40,19 +98,37 @@ p {
 }
 
 a {
-	color: #152fac;
+	color: #5d78b4;
 	text-decoration: none;
 }
 
 a:hover {
-	color: #415a8e;
+	color: #2b2bd4;
+	text-decoration: underline;
 }
 
 .sub {
 	margin-left: 1.7em;
 	text-indent: -1.7em;
-	color:#5f6a6c; 
-	font-size:.83em;
+	color:#2b2bd4; 
+	font-size:.78em;
+	line-height: 110%;
+}
+
+.sub2 {
+	margin-left: 1.7em;
+	/* font-family: 'Old Standard TT', serif; */
+	font-size:.78em;
+	line-height: 110%;
+}
+
+h2 {
+	font-size:100%;
+	font-weight:normal;
+}
+
+h2::selection {
+	color:#2b2bd4; 
 }
 
 mark {
@@ -63,4 +139,23 @@ mark {
 .hidden-text {
 	color:transparent;
 	font-size:0;
+}
+
+#allMask{
+  --mask: linear-gradient(to bottom, 
+	#f9f9f900 0%, #f9f9f900 65%,
+	#f9f9f950 82%, #f9f9f9ff 99%
+  ) 100% 50% / 100% 100% repeat-x;
+
+  background: var(--mask);
+
+	pointer-events: none;
+
+	position:fixed;
+	top:0;
+	left:0;
+	bottom:0;
+	right:0;
+	height:100%;
+	width:100%;
 }
