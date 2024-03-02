@@ -154,8 +154,8 @@ mark {
 
 #allMask{
   --mask: linear-gradient(to bottom, 
-	#f9f9f900 0%, #f9f9f900 44%, #f9f9f988 50%,
-	#f9f9f9ee 57%,#f9f9f9ff 70%
+	#f9f9f900 0%, #f9f9f900 42%,  #f9f9f944 45%, #f9f9f988 48%,
+	#f9f9f9ee 57%,#f9f9f9ff 71%
   ) 100% 50% / 100% 100% repeat-x;
 
   background: var(--mask);
