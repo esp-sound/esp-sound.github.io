@@ -19,6 +19,10 @@ html, body {
 	font-size: min(1.5em, max(1em, 3.5vw));
 }
 
+.esp::selection {
+	color:#ffffff;
+}
+
 #me {
 	margin:auto;
 	text-align: center;
